@@ -62,3 +62,7 @@ __pycache__/
 venv/
 env/
 .DS_Store
+
+# -- derived tracking data (reconstructs the gated data; must not be published) ---------------
+work/cache/
+work/plots/
