@@ -10,6 +10,7 @@
 
 kloppy==3.18.0
 matplotlib
+xgboost
 
 # For the notebooks in starter/
 notebook
