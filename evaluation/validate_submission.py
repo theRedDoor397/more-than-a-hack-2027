@@ -50,7 +50,8 @@ if __name__ == '__main__':
                         help="expected row count (default: this match's video length)")
     args = parser.parse_args()
 
-    if not os.path.isfile(args.submission):
+    if not os.path.isfile(args.submis
+                          sion):
         print("FAIL  no such file: {}".format(args.submission))
         sys.exit(1)
 
